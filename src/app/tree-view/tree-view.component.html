@@ -1,0 +1,11 @@
+<div *ngIf="rootNode">
+    <h2>{{ rootNode.label }}</h2>
+    <p>{{ rootNode.info }}</p>
+  
+    <ul>
+      <li *ngFor="let child of rootNode.children">
+        <app-tree-node [node]="child"></app-tree-node>
+      </li>
+    </ul>
+  </div>
+  

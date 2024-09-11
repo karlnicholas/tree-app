@@ -1,13 +1,10 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { TreeViewComponent } from './tree-view/tree-view.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet],
-  templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  template: '<app-tree-view></app-tree-view>',
+  imports: [TreeViewComponent]
 })
-export class AppComponent {
-  title = 'tree-app';
-}
+export class AppComponent {}

@@ -1,0 +1,31 @@
+{
+    "id": "root",
+    "label": "Root Node",
+    "info": "This is the root node",
+    "children": [
+      {
+        "id": "child1",
+        "label": "Child Node 1",
+        "info": "This is the first child node",
+        "children": [
+          {
+            "id": "child1-1",
+            "label": "Child Node 1-1",
+            "info": "This is a child of Child Node 1"
+          },
+          {
+            "id": "child1-2",
+            "label": "Child Node 1-2",
+            "info": "This is another child of Child Node 1"
+          }
+        ]
+      },
+      {
+        "id": "child2",
+        "label": "Child Node 2",
+        "info": "This is the second child node",
+        "children": []
+      }
+    ]
+  }
+  
